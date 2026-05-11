@@ -24,34 +24,4 @@ Upload an MRI scan to detect and classify brain tumors into four categories:
 | **No Tumor** | Normal brain scan |
 
 ---
-├── app.ipynb # Main application notebook
-├── Tumor_Detector_app.ipynb # Tumor detection implementation
-├── YOLO8x.ipynb # YOLOv8x training notebook
-├── EfficientNetV2S.ipynb # EfficientNetV2 model notebook
-├── models/
-│ ├── MOH_full.keras # Classifier model (248 MB)
-│ └── yolov8x.pt # Detection model (137 MB)
-├── Dataset_MRI_Images/ # MRI scan dataset
-├── yoloruns/ # YOLO training results
-└── MOH_weights.weights.h5 # Model weights
-## 🗂️ Project Structure
-├── app.ipynb # Main application notebook
-├── YOLO8x.ipynb # YOLOv8x training notebook
-├── EfficientNetV2S.ipynb # EfficientNetV2 model notebook
-├── MOH_weights.weights.h5 # Model weights
-├──── models/ # Pre-trained model files
-│     ├─── MOH_full.keras # Classifier model (248 MB)
-│     └── yolov8x.pt # Detection model (137 MB)
-├─── Dataset_MRI_Images/ # MRI scan dataset
-│     │── brain-tumor/ # Brain tumor dataset
-│     ├── train/ # Training images & labels
-│     ├── test/ # Test images & labels
-│     └── val/ # Validation images & labels    
-├─── yoloruns/ # YOLO training results
-│   └── detect/
-│   └── brain_tumor_yolov8x/ # YOLOv8x detection run
-│      ├── weights/
-│      │  ├── best.pt # Best model weights
-│      └── args.yaml # Training arguments
-└── Brain-Tumor-Model/ # Cloned repository files
 
