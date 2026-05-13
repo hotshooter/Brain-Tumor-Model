@@ -1,0 +1,6 @@
+tensorflow
+gradio
+pillow
+numpy
+opencv-python
+ultralytics
