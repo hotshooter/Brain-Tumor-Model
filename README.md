@@ -4,13 +4,6 @@ AI-powered brain tumor detection and classification using **YOLOv8x** and **Effi
 
 ---
 
-## 🚀 Live Demo
-
-Try the app online - no installation required!
-
-👉 **[Launch Brain Tumor Detector](https://huggingface.co/spaces/hotshooter/brain-tumor-detector)**
-
----
 
 ## 📋 Overview
 
